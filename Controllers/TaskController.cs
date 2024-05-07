@@ -64,7 +64,7 @@ namespace ToDo_List.Controllers
                     }
 
                     else{
-                         var q = from i in  _context.Tasks  select i;
+                         var q = from i in  _context.Tasks where i.IsComplete == false  select i;
                          return q.ToList();
                     
                     }
