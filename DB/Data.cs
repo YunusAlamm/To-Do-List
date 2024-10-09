@@ -4,18 +4,9 @@ using Microsoft.EntityFrameworkCore;
 namespace ToDo_List.Data
 {
 
-    public class DB:DbContext
+    public class DB(DbContextOptions<DB> options) : DbContext(options)
     {
-       public DB(DbContextOptions<DB> options) : base(options)
-        {
-        }
-        
-
-
-
-
-
-public DbSet<TodoItem> Tasks{get;set;}
+        public DbSet<TodoItem> Tasks{get;set;}
 
     }
     
