@@ -133,7 +133,7 @@ dotnet test
 ```
 
 ## Contributing
-We welcome contributions! Here's how you can get started:
+I welcome contributions! Here's how you can get started:
 1. Fork the repository.
 2. Create a new feature branch (`git checkout -b feature-name`).
 3. Commit your changes (`git commit -am 'Add new feature'`).
@@ -141,7 +141,7 @@ We welcome contributions! Here's how you can get started:
 5. Create a pull request.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+there is no license.
 
 ## Contact
 For questions or support, reach out via:
